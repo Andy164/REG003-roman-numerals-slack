@@ -10,7 +10,7 @@
   },
   "rules": {
     "import/extensions": ["error", "always"],
-    "no-nested-ternary": "warn",
+    "no-nested-ternary": "off",
     "no-restricted-globals": ["error", "event", "fdescribe"]
   }
 }
