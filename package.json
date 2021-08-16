@@ -1,0 +1,35 @@
+{
+  "name": "roman-numerals-slack",
+  "version": "1.0.0",
+  "description": "API to implement a slash command.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andy164/REG003-roman-numerals-slack.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Andy164",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andy164/REG003-roman-numerals-slack/issues"
+  },
+  "homepage": "https://github.com/Andy164/REG003-roman-numerals-slack#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0"
+  },
+  "dependencies": {
+    "@andy164/roman-numerals": "1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
