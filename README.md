@@ -2,14 +2,14 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+- [1. Preámbulo](#1-preámbulo)
+- [2. Resumen del proyecto](#2-resumen-del-proyecto)
+- [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+- [4. Consideraciones generales](#4-consideraciones-generales)
+- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+- [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
-***
+---
 
 ## 1. Preámbulo
 
@@ -37,54 +37,54 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Instalar y usar módulos con npm**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Sitio oficial de npm (en inglés)](https://www.npmjs.com/)
-</p></details>
+  - [Sitio oficial de npm (en inglés)](https://www.npmjs.com/)
+  </p></details>
 
 - [ ] **Configuración de package.json**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [package.json - Documentación oficial (en inglés)](https://docs.npmjs.com/files/package.json)
-</p></details>
+  - [package.json - Documentación oficial (en inglés)](https://docs.npmjs.com/files/package.json)
+  </p></details>
 
 - [ ] **Configuración de npm-scripts**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [scripts - Documentación oficial (en inglés)](https://docs.npmjs.com/misc/scripts)
-</p></details>
+  - [scripts - Documentación oficial (en inglés)](https://docs.npmjs.com/misc/scripts)
+  </p></details>
 
 ### JavaScript
 
 - [ ] **Pruebas unitarias (unit tests)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
-</p></details>
+  - [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
+  </p></details>
 
 - [ ] **Pruebas asíncronas**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Tests de código asincrónico con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/asynchronous)
-</p></details>
+  - [Tests de código asincrónico con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/asynchronous)
+  </p></details>
 
 - [ ] **Uso de mocks y espías**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Manual Mocks con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/manual-mocks)
-</p></details>
+  - [Manual Mocks con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/manual-mocks)
+  </p></details>
 
 - [ ] **Módulos de CommonJS**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Modules: CommonJS modules - Node.js Docs](https://nodejs.org/docs/latest/api/modules.html)
-</p></details>
+  - [Modules: CommonJS modules - Node.js Docs](https://nodejs.org/docs/latest/api/modules.html)
+  </p></details>
 
 - [ ] **Uso de linter (ESLINT)**
 
@@ -114,40 +114,40 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Consulta o petición (request) y respuesta (response).**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Generalidades del protocolo HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Overview)
-  * [Mensajes HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Messages)
-</p></details>
+  - [Generalidades del protocolo HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Overview)
+  - [Mensajes HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Messages)
+  </p></details>
 
 - [ ] **Cuerpo (body)**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Cuerpo de Mensajes HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Messages#cuerpo)
-</p></details>
+  - [Cuerpo de Mensajes HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Messages#cuerpo)
+  </p></details>
 
 - [ ] **Verbos HTTP**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Métodos de petición HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
-</p></details>
+  - [Métodos de petición HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
+  </p></details>
 
 - [ ] **Codigos de status de HTTP**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Códigos de estado de respuesta HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Status)
-  * [The Complete Guide to Status Codes for Meaningful ReST APIs - dev.to](https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5)
-</p></details>
+  - [Códigos de estado de respuesta HTTP - MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Status)
+  - [The Complete Guide to Status Codes for Meaningful ReST APIs - dev.to](https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5)
+  </p></details>
 
 - [ ] **Encodings y JSON**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Introducción a JSON - Documentación oficial](https://www.json.org/json-es.html)
-</p></details>
+  - [Introducción a JSON - Documentación oficial](https://www.json.org/json-es.html)
+  </p></details>
 
 ### WebOps
 
@@ -157,16 +157,16 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Slash commands de Slack**
 
-  <details><summary>Links</summary><p>
+    <details><summary>Links</summary><p>
 
-  * [Enabling interactivity with Slash Commands - Slack Docs](https://api.slack.com/interactivity/slash-commands)
-</p></details>
+  - [Enabling interactivity with Slash Commands - Slack Docs](https://api.slack.com/interactivity/slash-commands)
+  </p></details>
 
 ## 4. Consideraciones generales
 
-* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si
+- El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si
   trabajar sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+- El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
 
@@ -196,7 +196,7 @@ MMXX
 
 Dos endpoints:
 
-* `GET /`: Debe responder con un objeto JSON con dos propiedades (`name` y
+- `GET /`: Debe responder con un objeto JSON con dos propiedades (`name` y
   `version`). Ejemplo:
 
   ```json
@@ -206,7 +206,7 @@ Dos endpoints:
   }
   ```
 
-* `POST /`: Este es el endpoint al que Slack enviará los comandos escritos por
+- `POST /`: Este es el endpoint al que Slack enviará los comandos escritos por
   las usuarias (en el cuerpo - _body_ - de las consultas - _requests_) y
   responderá en formato JSON con un objeto como este:
 
@@ -229,11 +229,11 @@ command_). Esto significa que nuestro _endpoint_ debe estar desplegado en una
 URL pública. Para esto pueden usar la plataforma que prefieran. Algunas opciones
 que pueden explorar:
 
-* Firebase Cloud functions
-* AWS Lambda
-* Docker + GPC o AWS ECS
-* Heroku
-* Now (Zeit)
+- Firebase Cloud functions
+- AWS Lambda
+- Docker + GPC o AWS ECS
+- Heroku
+- Now (Zeit)
 
 ### Apps en Slack
 
@@ -253,11 +253,13 @@ Para poder trabajar en este proyecto necesitas seguir estos pasos:
 
 ### Otros recursos y lecturas complementarias
 
-* [Slack API](https://api.slack.com/)
-* [Slack API - Slash Commands](https://api.slack.com/interactivity/slash-commands)
-* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
-* [learnyounode](https://github.com/workshopper/learnyounode)
-* [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
-* [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
-* [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
-* [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
+- [Slack API](https://api.slack.com/)
+- [Slack API - Slash Commands](https://api.slack.com/interactivity/slash-commands)
+- [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
+- [learnyounode](https://github.com/workshopper/learnyounode)
+- [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
+- [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
+- [¿Simplemente qué es Node.js? - IBM Developer Works, 2011](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html)
+- [Node.js y npm](https://www.genbeta.com/desarrollo/node-js-y-npm)
+
+<!-- https://github.com/slackapi/template-slash-command-and-dialogs/tree/c8d788323b7bf9bb45bbcb917adf4b41308a1395 -->

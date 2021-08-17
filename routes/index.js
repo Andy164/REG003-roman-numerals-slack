@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
   res.json({ name, version });
 });
 
-router.post('/', (req, res) => {
+router.post('/command', (req, res) => {
   const { text } = req.body;
 
   const response = {
@@ -34,7 +34,7 @@ router.post('/', (req, res) => {
     }
   }
 
-  res.json(response);
+  return res.json(response);
 });
 
 export default router;
