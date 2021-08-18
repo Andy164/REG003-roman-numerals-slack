@@ -6,7 +6,8 @@ const router = express.Router();
 const name = process.env.npm_package_name;
 const version = process.env.npm_package_version;
 
-const help = 'This is a command slash that allows you to convert Arabic numbers into Roman numbers and vice versa.';
+const help =
+  'This is a command slash that allows you to convert Arabic numbers into Roman numbers and vice versa.';
 
 router.get('/', (req, res) => {
   res.json({ name, version });
@@ -20,21 +21,19 @@ router.post('/command', (req, res) => {
     text: '',
   };
 
-  if (isNaN(text)) {
-    try {
+  try {
+    if (isNaN(text)) {
       response.text = text === 'version' ? version : text === 'help' ? help : parse(text);
-    } catch (error) {
-      response.text = error.message;
-    }
-  } else {
-    try {
+    } else {
       response.text = stringify(+text);
-    } catch (error) {
-      response.text = error.message;
     }
+  } catch (error) {
+    response.text = error.message;
   }
 
-  return res.json(response);
+  return res.status(200).json(response);
 });
 
 export default router;
+
+export { name, version, help };

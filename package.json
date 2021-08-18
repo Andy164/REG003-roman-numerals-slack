@@ -8,7 +8,8 @@
     "node": "14.x"
   },
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,15 +25,23 @@
   },
   "homepage": "https://github.com/Andy164/REG003-roman-numerals-slack#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.24.0"
+    "eslint-plugin-import": "^2.24.0",
+    "jest": "^27.0.6"
   },
   "dependencies": {
     "@andy164/roman-numerals": "1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "supertest": "^6.1.5"
+  },
+  "jest": {
+    "testRegex": ".*.spec.js$"
   }
 }
